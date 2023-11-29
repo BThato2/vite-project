@@ -7,14 +7,7 @@ import amplifyconfig from './aws-exports';
 function App() {
   const [count, setCount] = useState(0)
 
-  
-  console.log(amplifyconfig.oauth.domain);
 
-  function redirect()
-    {
-    var url = amplifyconfig.oauth.domain;
-    window.location(url);
-    }
 
   return (
 
